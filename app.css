@@ -1,0 +1,41 @@
+.chat-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.chat-box {
+  height: 400px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  padding: 10px;
+  background: #f9f9f9;
+  margin-bottom: 10px;
+}
+
+.chat-msg {
+  margin-bottom: 8px;
+}
+
+.chat-input {
+  display: flex;
+  gap: 10px;
+}
+
+.chat-input input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.chat-input button {
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+.time {
+  float: right;
+  font-size: 0.8em;
+  color: #888;
+}
